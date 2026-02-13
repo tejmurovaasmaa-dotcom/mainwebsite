@@ -233,51 +233,52 @@ export const properties: Property[] = [
         ],
     },
     {
-  id: "ace-terra-yamuna-expressway",
-  slug: "ace-terra-sector-22d-yamuna-expressway",
-  name: "ACE Terra",
-  type: "Residential",
-  description:
-    "ACE Terra is a premium forest-themed residential project by ACE Group, located in Sector 22D along the Yamuna Expressway, Greater Noida. Spread across approximately 11 acres, the project is designed as a low-density luxury development with over 80% open green spaces. Positioned near the upcoming Noida International Airport (Jewar), Film City, and major infrastructure corridors, ACE Terra offers spacious 3 and 4 BHK residences built with Mivan construction technology, making it a strong choice for both end-users and long-term investors.",
-  image: "https://res.cloudinary.com/dkgo71mgz/image/upload/v1770555928/ACETERRA_mgalyk.webp",
-  videoLink: "", // replace if actual video exists
-  location: "Sector 22D, Yamuna Expressway, Greater Noida",
-  price: "Starting from ₹1.77 Cr* onwards",
-  size: "3 & 4 BHK Apartments (Super Area: 1,770 – 3,025 sq.ft.)",
-  floors: "G+25 Floors",
-  highlights: [
-    "Forest-themed luxury residential project with over 80% open green area",
-    "Low-density development with approx. 106 units per acre",
-    "Close proximity to Noida International Airport (Jewar)",
-    "Located near the proposed 1000-acre Film City and Olympic City",
-    "Spacious 3 & 4 BHK apartments with servant room options",
-    "Mivan construction for superior quality and durability",
-    "Strong price appreciation of 15–17% in the last year"
-  ],
-  city: "yamuna-expressway",
-  locationLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82347.42126782968!2d77.57536673222265!3d28.169632899281023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cb9b82435d3a3%3A0xfc0759ebf8e31756!2sACE%20TERRA!5e1!3m2!1sen!2sin!4v1770556339388!5m2!1sen!2sin",
-  possession: "Dec 2028 (expected)",
-  area: "Approx. 11 Acres",
-  unit: [
-    "3 BHK + 3T",
-    "3 BHK + 3T + Servant",
-    "4 BHK + 4T + Servant"
-  ],
-  rera: "UPRERAPRJ683816",
-  amenities: [
-    "60,000 sq.ft. signature clubhouse",
-    "Multi-cuisine restaurant, bakery & café",
-    "Swimming pool with water features",
-    "Fully equipped gym & yoga center",
-    "Squash, tennis & basketball courts",
-    "Jogging tracks & senior citizen park",
-    "Kids’ play zone & library",
-    "EV charging stations",
-    "Rainwater harvesting & solar lighting",
-    "24×7 security with CCTV surveillance"
-  ],
-  gallery: [
-    "https://res.cloudinary.com/dkgo71mgz/image/upload/v1770555928/ACETERRA_mgalyk.webp"
-  ],
-}
+        id: "ace-terra-yamuna-expressway",
+        slug: "ace-terra-sector-22d-yamuna-expressway",
+        name: "ACE Terra",
+        type: "Residential",
+        description:
+            "ACE Terra is a premium forest-themed residential project by ACE Group, located in Sector 22D along the Yamuna Expressway, Greater Noida. Spread across approximately 11 acres, the project is designed as a low-density luxury development with over 80% open green spaces. Positioned near the upcoming Noida International Airport (Jewar), Film City, and major infrastructure corridors, ACE Terra offers spacious 3 and 4 BHK residences built with Mivan construction technology, making it a strong choice for both end-users and long-term investors.",
+        image: "https://res.cloudinary.com/dkgo71mgz/image/upload/v1770555928/ACETERRA_mgalyk.webp",
+        videoLink: "", // replace if actual video exists
+        location: "Sector 22D, Yamuna Expressway, Greater Noida",
+        price: "Starting from ₹1.77 Cr* onwards",
+        size: "3 & 4 BHK Apartments (Super Area: 1,770 – 3,025 sq.ft.)",
+        floors: "G+25 Floors",
+        highlights: [
+            "Forest-themed luxury residential project with over 80% open green area",
+            "Low-density development with approx. 106 units per acre",
+            "Close proximity to Noida International Airport (Jewar)",
+            "Located near the proposed 1000-acre Film City and Olympic City",
+            "Spacious 3 & 4 BHK apartments with servant room options",
+            "Mivan construction for superior quality and durability",
+            "Strong price appreciation of 15–17% in the last year"
+        ],
+        city: "yamuna-expressway",
+        locationLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82347.42126782968!2d77.57536673222265!3d28.169632899281023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cb9b82435d3a3%3A0xfc0759ebf8e31756!2sACE%20TERRA!5e1!3m2!1sen!2sin!4v1770556339388!5m2!1sen!2sin",
+        possession: "Dec 2028 (expected)",
+        area: "Approx. 11 Acres",
+        unit: [
+            "3 BHK + 3T",
+            "3 BHK + 3T + Servant",
+            "4 BHK + 4T + Servant"
+        ],
+        rera: "UPRERAPRJ683816",
+        amenities: [
+            "60,000 sq.ft. signature clubhouse",
+            "Multi-cuisine restaurant, bakery & café",
+            "Swimming pool with water features",
+            "Fully equipped gym & yoga center",
+            "Squash, tennis & basketball courts",
+            "Jogging tracks & senior citizen park",
+            "Kids’ play zone & library",
+            "EV charging stations",
+            "Rainwater harvesting & solar lighting",
+            "24×7 security with CCTV surveillance"
+        ],
+        gallery: [
+            "https://res.cloudinary.com/dkgo71mgz/image/upload/v1770555928/ACETERRA_mgalyk.webp"
+        ],
+    },
+    
 ];

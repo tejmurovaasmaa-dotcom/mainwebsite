@@ -12,7 +12,7 @@ const owners: Owner[] = [
   {
     name: 'PRASHANT SHARMA',
     post: 'Managing Director',
-    image: 'https://res.cloudinary.com/dkgo71mgz/image/upload/v1770623711/prsnt_2_fdytrn.webp',
+    image: 'https://res.cloudinary.com/dkgo71mgz/image/upload/v1770975440/IMG_6247_brrswm.webp',
   },
   {
     name: 'Asya Sharma',

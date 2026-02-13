@@ -50,10 +50,10 @@ export default function TrustBridgeChakra() {
   ];
 
   return (
-    <section className="py-8 bg-luxury-cream overflow-hidden">
+    <section className="py-8 bg-luxury-cream overflow-hidden hidden md:block">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-heading text-primary">
+          <h2 className="text-4xl md:text-5xl font-heading text-primary mb-10">
             Our Expertise
           </h2>
           <p className="text-black text-lg max-w-2xl mx-auto">
