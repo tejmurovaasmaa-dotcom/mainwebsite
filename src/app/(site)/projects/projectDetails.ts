@@ -60,7 +60,7 @@ export const properties: Property[] = [
         location:"Sector 151, Noida",
         price:"Starting at ₹3.5 Cr",
         size:"starting at 2100 sq.ft.",
-        floors:'35-38 floors',
+        floors:'38 floors',
         city:"noida",
         locationLink:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3708.559084908491!2d77.45784831529266!3d28.446265740231644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc37a8f4b5c73%3A0xe628ec1bef381184!2sExperion%20Sector%20151%20Noida!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
         possession:"December 2029(Expected)",
@@ -189,7 +189,7 @@ export const properties: Property[] = [
         ]
     },
     {
-        id: "ace-hive-yamuna-expressway",
+        id: "6",
         slug: "ace-hive-sector-22a-yamuna-expressway",
         name: "ACE Hive",
         type: "Commercial",
@@ -197,7 +197,7 @@ export const properties: Property[] = [
             "ACE Hive is an upcoming premium commercial and mixed-use development by ACE Group, located alongside the Yamuna Expressway in Sector 22A, Greater Noida. Positioned within the ACE AcreVille integrated township, the project blends high-street retail shops, business suites, studio apartments, food & dining zones, and entertainment spaces — creating a vibrant hub designed for investors, entrepreneurs, and businesses seeking high visibility and long-term growth potential. It enjoys excellent connectivity to Jewar International Airport and major NCR infrastructure corridors, making it a strategic commercial destination. :contentReference[oaicite:0]{index=0}",
         image: "https://res.cloudinary.com/dkgo71mgz/image/upload/v1770546261/hero_bg_ttgvvq.webp",
         location: "Sector 22A, Yamuna Expressway, Greater Noida",
-        price: "Starting from ₹76.77 Lac", // approximate market range :contentReference[oaicite:1]{index=1}
+        price: "Starting at ₹76.8 Lac", // approximate market range :contentReference[oaicite:1]{index=1}
         size: "Retail & Studio Apartments (approx. 48 sq.ft – 800 sq.ft)", // typical ranges :contentReference[oaicite:2]{index=2}
         floors: "G+17 Floors", // typical configuration :contentReference[oaicite:3]{index=3}
         highlights: [
@@ -233,7 +233,7 @@ export const properties: Property[] = [
         ],
     },
     {
-        id: "ace-terra-yamuna-expressway",
+        id: "7",
         slug: "ace-terra-sector-22d-yamuna-expressway",
         name: "ACE Terra",
         type: "Residential",
@@ -242,7 +242,7 @@ export const properties: Property[] = [
         image: "https://res.cloudinary.com/dkgo71mgz/image/upload/v1770555928/ACETERRA_mgalyk.webp",
         videoLink: "", // replace if actual video exists
         location: "Sector 22D, Yamuna Expressway, Greater Noida",
-        price: "Starting from ₹1.77 Cr* onwards",
+        price: "Starting at ₹1.77 Cr*",
         size: "3 & 4 BHK Apartments (Super Area: 1,770 – 3,025 sq.ft.)",
         floors: "G+25 Floors",
         highlights: [
@@ -280,5 +280,134 @@ export const properties: Property[] = [
             "https://res.cloudinary.com/dkgo71mgz/image/upload/v1770555928/ACETERRA_mgalyk.webp"
         ],
     },
-    
+    {
+        id: "8",
+        slug:"smartworl-le-courtyard",
+        name:"Le Courtyard Residences",
+        type:"Residential",
+        description: "Smartworld ES Residences & Suites is an ultra-luxury mixed-use development located in Sector 98, Noida, right on the Noida–Greater Noida Expressway. Spread across 6 acres, the project features branded 3 & 4 BHK residences, premium service suites, and high-end high-street retail (Le Courtyard). Designed for CXOs, HNIs, and premium investors, the development offers low-density living with only 3 apartments per floor, expansive layouts, a 50,000 sq.ft. state-of-the-art clubhouse, and curated luxury retail and dining experiences.",
+        image:"https://res.cloudinary.com/dkgo71mgz/image/upload/v1771136186/ellsa_ch4zen.webp",
+        videoLink:"",
+        location:"Sector 98, Noida",
+        price:"Starting at ₹9.12 Cr",
+        size:"3 & 4 BHK Residences",
+        floors:"G+ 30 Floors",
+        highlights: [
+        "6-acre mixed land-use development",
+        "3 ultra-luxury residential towers with only 203 units",
+        "Only 3 apartments per floor for exclusivity",
+        "50,000 sq.ft. elite clubhouse",
+        "Located on prime Noida–Greater Noida Expressway frontage",
+        "High-street luxury retail: Le Courtyard",
+        "Premium fine dining & nightlife zone (No food court concept)",
+        "Strong appreciation potential in a high-growth corridor"
+        ],
+        city:"noida",
+        locationLink:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2095.095658102687!2d77.35611625528433!3d28.53531521266614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce74ba6d0c731%3A0x521fc3e5840a23!2sSmartworld%20Residences%20by%20Elie%20Saab%2C%20Sector%2098%2C%20Noida!5e1!3m2!1sen!2sin!4v1771138318394!5m2!1sen!2sin",
+        possession:"December 2030 (Expected)",
+        area: "6 Acres",
+        unit: [
+            "3BHK + S – 2850 sq.ft.",
+            "3BHK + S + PWD Room – 3355 sq.ft.",
+            "4BHK + S + PWD Room – 3810 sq.ft.",
+            "1BHK Suite – 695 sq.ft.",
+            "2BHK Suite – 1665 sq.ft."
+        ],
+        rera:"UPRERAPRJ300532/12/2025",
+        amenities: [
+        "50,000 sq.ft. state-of-the-art clubhouse",
+        "Luxury spa, salon & wellness zones",
+        "Premium high-street retail boulevard",
+        "Fine dining restaurants & lounges",
+        "Alfresco dining spaces",
+        "24×7 security & access control",
+        "Dedicated parking",
+        "Low-density branded residences",
+        "Modern architecture & premium specifications"
+       ],
+       gallery:["https://res.cloudinary.com/dkgo71mgz/image/upload/v1771136186/ellsa_ch4zen.webp"]
+    },
+    {
+        id:"9",
+        slug:"smartworld-es-commercial",
+        name:"Le Courtyard Commercial",
+        type:"Commercial",
+        description:"Le Courtyard is a luxury high-street commercial development in Sector 98, Noida, located on the Noida–Greater Noida Expressway. It features three curated floors dedicated to premium retail, lifestyle brands, spa & wellness concepts, and fine dining—without a traditional food court model. Designed for strong visibility, high footfall, and affluent catchment from the adjoining branded residences and service suites, it offers strong potential for rental income, brand positioning, and long-term appreciation.",
+        image:"https://res.cloudinary.com/dkgo71mgz/image/upload/v1771147182/elsaab_ihluqh.webp",
+        videoLink:"",
+        location:"Sector 98, Noida",
+        price:"Starting at ₹1.5 Cr*",
+        size:"1BHK &2BHK Suites",
+        floors:"3 Floors",
+        highlights:[
+        "Luxury high-street commercial development",
+        "Located on Noida–Greater Noida Expressway frontage",
+        "Part of the 6-acre Smartworld ES Residences & Suites development",
+        "Curated retail, lifestyle, spa & fine dining concepts",
+        "High visibility & footfall from adjoining branded residences",
+        "Strong rental income & brand positioning potential"
+        ],
+        city:"noida",
+        locationLink:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2095.095658102687!2d77.35611625528433!3d28.53531521266614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce74ba6d0c731%3A0x521fc3e5840a23!2sSmartworld%20Residences%20by%20Elie%20Saab%2C%20Sector%2098%2C%20Noida!5e1!3m2!1sen!2sin!4v1771138318394!5m2!1sen!2sin",
+        possession:"December 2030 (Expected)",
+        area: "Approx. 6 Acres",
+        unit:["1BHK Suite – 695 sq.ft.",
+        "2BHK Suite – 1665 sq.ft."],
+        rera:"UPRERAPRJ300532/12/2025",
+        amenities:[
+        "Curated retail, lifestyle, spa & fine dining concepts",
+        "High visibility & footfall from adjoining branded residences",
+        "24×7 security & access control",
+        "Dedicated parking",
+        "Modern architecture & premium specifications"
+        ],
+        gallery:["https://res.cloudinary.com/dkgo71mgz/image/upload/v1771147182/elsaab_ihluqh.webp"]
+    },
+    {
+        id:"10",
+        slug:"great-value-ekanam-sector-107",
+        name:"Great Value Ekanam",
+        type:"Residential",
+        description:"Great Value Ekanam is an ultra-luxury, low-density residential development in Sector 107, Noida, designed by globally renowned firm Benoy. Spread across ~4 acres, the project features three iconic G+46 towers with only around 279–289 exclusive residences. Positioned as a high-end vertical green development, it offers Noida’s highest infinity pool, expansive clubhouse facilities, large-format apartments with 11–12 ft ceilings, and premium international specifications.",
+        image:"https://res.cloudinary.com/dkgo71mgz/image/upload/v1771149375/eknm_zsiavr.webp",
+        videoLink:"",
+        location:"Sector 107, Noida",
+        price:"Starting at ₹7.1 Cr*",
+        size:"3 & 4 BHK Ultra-Luxury Residences",
+        floors:"G+46 Floors (3 Towers)",
+        highlights:[
+            "Designed by internationally acclaimed architect Benoy",
+            "Ultra low-density project with only ~279–289 units",
+            "Noida’s highest infinity pool at 40th floor (Sky Hub)",
+            "Large-format homes with 11–12 ft ceiling height",
+            "Approx. 80% open green area with vertical green concept",
+            "Premium clubhouse (40,000–100,000 sq.ft.) with luxury amenities"
+        ],
+        city:"noida",
+        locationLink:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d339.60116425809144!2d77.3718034809748!3d28.542820562503497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce7104037aa19%3A0xecdec86fd99c2c25!2sEkanam%20by%20Great%20Value!5e1!3m2!1sen!2sin!4v1771148913179!5m2!1sen!2sin",
+        possession:"June 2030 (Expected)",
+        area:"Approx. 4 Acres",
+        unit:[
+            "3 BHK + SQ + Lounge – 3,525 sq.ft.",
+            "4 BHK + SQ + Lounge – 5,525 sq.ft."
+        ],
+        rera:"UPRERAPRJ510056/09/2025",
+        amenities:[
+            "40th-floor infinity pool with rooftop dining deck & sky lounge",
+            "Horizontal Gardens on refuge floors(16th ,24th ,32nd)",
+            "Indoor all-weather swimming pool",
+            "Luxury spa, gym, cigar lounge & private theatre",
+            "Home automation in every apartment",
+            "VRV/VRF air-conditioning system",
+            "PM 2.5 air filtration system",
+            "Imported German modular kitchen with chimney, hob, microwave",
+            "Walk-in closets & imported marble flooring",
+            "Only 3 units per floor with 5 high-speed lifts per tower",
+            "24×7 security & controlled access"
+        ],
+        gallery:[
+            "https://res.cloudinary.com/dkgo71mgz/image/upload/v1771149375/eknm_zsiavr.webp",
+        ]
+    }
+
 ];

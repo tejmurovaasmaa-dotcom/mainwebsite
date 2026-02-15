@@ -15,18 +15,6 @@ export interface Plots{
 }
 
 export const plotsDetails: Plots[] = [
-    {
-        id: 1,
-        name: "Plots",
-        city: "noida",
-        location: "Sector 90",
-        type: "Plots",
-        image: "/images/plots.webp",
-        description: "Plots in Noida",
-        price: "1000000",
-        area: "1000",
-        facing: "East",
-        highlights: ["Plots in Noida", "Plots in Noida", "Plots in Noida"]
-    }
+    
 ]
 

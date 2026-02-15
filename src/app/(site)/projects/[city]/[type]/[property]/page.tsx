@@ -91,7 +91,7 @@ export default async function PropertyDetailsPage({ params }: { params: Promise<
                             <h2 className="text-3xl font-heading text-luxury-accent mb-12 flex items-center gap-4">
                                 Unit Type
                             </h2>
-                            <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+                            <div className="grid grid-cols-2 gap-6">
                                 {property.unit.map((unit, index) => (
                                     <FactBox key={index} value={unit} />
                                 ))}
