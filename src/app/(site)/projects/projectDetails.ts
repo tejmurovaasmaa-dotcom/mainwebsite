@@ -408,6 +408,95 @@ export const properties: Property[] = [
         gallery:[
             "https://res.cloudinary.com/dkgo71mgz/image/upload/v1771149375/eknm_zsiavr.webp",
         ]
+    },
+    {
+        id:"11",
+        slug:"ace-verde",
+        name:"Ace Verde",
+        type:"Residential",
+        description:"ACE Verde is a premium residential development by ACE Group located on the Yamuna Expressway in Sector 22A, Greater Noida. Spread over ~8 acres, it offers spacious luxury apartments with wide green views, modern amenities, and excellent regional connectivity. The project is positioned as a future-forward living destination benefiting from upcoming infrastructure like the Noida International Airport, Film City, and major sports & entertainment hubs. It is RERA approved and designed for families and investors seeking comfort, convenience, and strong appreciation potential.",
+        image:"https://res.cloudinary.com/dkgo71mgz/image/upload/v1771667241/verda_jikuqr.webp",
+        location:"Sector 22A, Yamuna Expressway, Greater Noida, Uttar Pradesh, India",
+        price:"Starting at 86 Lacs",
+        size:"Starting at 420 sq.ft.",
+        floors:"25 Floors",
+        highlights:[
+            "Prime expressway frontage with green park views",
+            "20 minutes from Noida International (Jewar) Airport",
+            "Low-density configuration with modern design",
+            "RERA approved residential community"
+        ],
+        city:"yamuna-expressway",
+        locationLink:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12222.368657754665!2d77.54594552723155!3d28.332201380752874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc755d8766215%3A0x4b32b29e6e46a5a6!2sACE%20VERDE!5e1!3m2!1sen!2sin!4v1771666008012!5m2!1sen!2sin",
+        possession:"March/April 2029",
+        area:"8 Acres",
+        unit:[
+            "1BHK - 420 - 727 sq.ft.",
+            "2BHK - 1022 - 1407 sq.ft.",
+            "3BHK - 1005 - 1694 sq.ft.",
+            "Studio - 308 - 405 sq.ft."
+        ],
+        rera:"UPRERAPRJ913692/03/2025",
+        amenities:[
+            "Clubhouse",
+            "Swimming Pool",
+            "Gym & Fitness Center",
+            "Jogging & Cycling Tracks",
+            "Landscaped Gardens",
+            "Kids Play Area",
+            "24×7 Security & CCTV",
+            "Power Backup",
+            "Water Supply",
+            "Sports Courts",
+            "Senior Citizen & Meditation Zones"
+        ],
+        gallery:[
+            "https://res.cloudinary.com/dkgo71mgz/image/upload/v1771667241/verda_jikuqr.webp"
+        ]
+    },
+    {
+        id: "12",
+        slug: "gaur-yamuna-city",
+        name: "Gaur Yamuna City",
+        type: "Residential",
+        description: "Gaur Yamuna City is a large integrated residential township by Gaursons India located on the Yamuna Expressway in Sector 22D, Greater Noida. Spread across approx. 250 acres, the development includes apartments, villas, plotted development and commercial spaces with extensive open green areas, modern amenities, and strong connectivity to planned infrastructure such as Jewar International Airport and Formula 1 Race Track. The township is designed for families and investors seeking quality living and long-term appreciation. The master plan was prepared with international collaboration and emphasizes open space, lifestyle amenities, and future-ready infrastructure.",
+        image: "https://res.cloudinary.com/dkgo71mgz/image/upload/v1771675067/ymncty_vohnwt.webp",
+        location: "Sector 22D, Yamuna Expressway, Greater Noida, Uttar Pradesh, India",
+        price: "Starting around ₹ 1.05 Cr",
+        size: "Plot options, villas and apartments available over the township area",
+        floors: "Typical building heights vary by phase",
+        highlights: [
+            "Integrated 250 acre township with approx. 65% open and green space",
+            "Close proximity to Jewar International Airport and major infrastructure",
+            "Master plan developed with international design input",
+            "Range of residential typologies including apartments, villas, plots"
+        ],
+        city: "yamuna-expressway",
+        locationLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6112.448757464664!2d77.56009030959!3d28.310206545296477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc782e3a4a123%3A0xaa21f263577b63e5!2sGaur%20Yamuna%20City!5e1!3m2!1sen!2sin!4v1771675266134!5m2!1sen!2sin",
+        possession: "Varies by project phase",
+        area: "Approx. 250 Acres",
+        unit: [
+            "Plots – multiple size options",
+            "Villas – various configurations",
+            "2/3/4 BHK apartments"
+        ],
+        rera: "UPRERAPRJ342117",
+        amenities: [
+            "Clubhouse & Recreational Zones",
+            "Swimming Pool",
+            "Gym & Fitness Centre",
+            "Sports Facilities (Cricket, Football, Tennis etc.)",
+            "Jogging/Walking Tracks & Landscaped Gardens",
+            "Kids Play Areas",
+            "24×7 Security & CCTV",
+            "Water Supply & Power Backup",
+            "Retail Outlets & Community Spaces",
+            "Rainwater Harvesting / STP",
+            "Wi-Fi Enabled Township"
+        ],
+        gallery: [
+            "https://res.cloudinary.com/dkgo71mgz/image/upload/v1771675067/ymncty_vohnwt.webp"
+        ]
     }
-
 ];
+  
