@@ -11,14 +11,14 @@ export interface Property {
     videoLink?:string;
     location: string;
     price: string;
-    size: string;
+    size: string;  
     floors?: string;
     highlights?: string[];
     city: string;
     locationLink?:string;
     possession: string;
     area?: string;
-    unit: string[];
+    unit: string[]; //type of property like 3 bhk, retail shop etc
     rera?: string;
     amenities: string[];
     gallery: string[];
@@ -496,6 +496,49 @@ export const properties: Property[] = [
         ],
         gallery: [
             "https://res.cloudinary.com/dkgo71mgz/image/upload/v1771675067/ymncty_vohnwt.webp"
+        ]
+    },
+    {
+        id: "13",
+        slug:"lnt-green-reserve",
+        name:"L&T Green Reserve",
+        type:"Residential",
+        description:"L&T Green Reserve is an ultra-luxury residential development by L&T Realty in Sector 128, Noida. Set on approximately 6.1 acres, the project offers premium 3, 4 & 5 BHK apartments with expansive layouts, panoramic golf course views and world-class amenities. Designed with contemporary architecture and lush green surroundings, Green Reserve combines luxury living with seamless connectivity to Noida Expressway and key NCR hubs.",
+        image:"https://res.cloudinary.com/dkgo71mgz/image/upload/v1771764631/ltgrn_aliiyo.webp",
+        location:"Sector 128, Noida",
+        price:"Starting at ₹6.30 Cr*",
+        size:"Staring at 2850 sq.ft.",
+        floors:"G+45 Floors",
+        highlights:[
+        "Premium golf course-facing apartments",
+        "6 Acres land 4 Towers",
+        "Surrounded by 110 acres of golf course and green spaces",
+        "World-class clubhouse & lifestyle amenities",
+        "Panoramic views & landscaped green spaces",
+        "Designed by top architects",
+        "Strategic location on Noida Expressway"
+        ],
+        city:"noida",
+        locationLink:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d641.2011502114689!2d77.3607668708949!3d28.523177292411546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce70043c259bf%3A0xdbefc6f96bb90b80!2sL%26T%20Green%20Reserve!5e1!3m2!1sen!2sin!4v1771765542742!5m2!1sen!2sin",
+        possession:"May 2028 (Expected)",
+        area:"6.1 Acres",
+        unit:[
+            "3BHK (2004 - 2163 sq.ft.)",
+            "4BHK (2501 sq.ft.)",
+        ],
+        rera:"UPRERAPRJ459796/09/2025",
+        amenities:[
+        "Grand Clubhouse (~65,000 sq.ft.)",
+        "Swimming Pool",
+        "Gymnasium & Fitness Center",
+        "Jogging & Cycling Tracks",
+        "Kids’ Play Area",
+        "Sports Courts",
+        "Landscaped Gardens",
+        "24×7 Security"
+        ],
+        gallery:[
+            "https://res.cloudinary.com/dkgo71mgz/image/upload/v1771764631/ltgrn_aliiyo.webp"
         ]
     }
 ];

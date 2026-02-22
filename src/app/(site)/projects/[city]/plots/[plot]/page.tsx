@@ -26,7 +26,7 @@ export default async function PlotDetailsPage({ params }: { params: Promise<{ ci
             <div className="relative h-[80vh] w-full">
                 <Image
                     src={plot.image}
-                    alt={plot.name}
+                    alt={plot.name || 'Plot Image'}
                     fill
                     className="object-cover"
                     priority
@@ -46,9 +46,9 @@ export default async function PlotDetailsPage({ params }: { params: Promise<{ ci
                             <span className="bg-primary text-white text-[10px] tracking-[0.5em] uppercase px-5 py-2 rounded-sm mb-6 inline-block font-bold">
                                 {plot.type}
                             </span>
-                            <h1 className="text-6xl md:text-9xl font-heading text-white tracking-tighter mb-6 leading-[0.9]">
+                            {plot.name && <h1 className="text-6xl md:text-9xl font-heading text-white tracking-tighter mb-6 leading-[0.9]">
                                 {plot.name}
-                            </h1>
+                            </h1>}
                             <p className="text-white/90 text-xl md:text-2xl font-light flex items-center gap-3 italic">
                                 <MapPin className="text-primary w-6 h-6" />
                                 {plot.location}, {city.name}
@@ -73,23 +73,41 @@ export default async function PlotDetailsPage({ params }: { params: Promise<{ ci
                             </p>
                         </section>
 
+                        <section className='mb-20'>
+                            <div className='flex flex-col md:flex flex-wrap'>
+                                {plot.size && plot.size.length > 0 && plot.size.map((size: string, index: number) => (
+                                    <div key={index} className='flex items-center gap-3 mb-4'>
+                                        <Maximize className='text-primary' size={20} />
+                                        <span className="text-luxury-textMuted">{size}</span>
+                                    </div>
+                                ))}
+                            </div>
+                        </section>
+
+                        <section className='mb-20'>
+                            <div className='flex flex-col md:flex-row flex-wrap'>
+                                <Landmark className="text-primary" size={36} />
+                                <p className="ml-4 text-2xl text-luxury-textMuted">{plot.price}</p>
+                            </div>
+                        </section>
+
                         {/* Specifications Grid */}
                         <section className="mb-20 grid grid-cols-1 md:grid-cols-3 gap-8">
-                            <SpecCard 
+                            {/* <SpecCard 
                                 icon={<Maximize className="text-primary" size={24} />}
                                 label="Plot Area"
                                 value={`${plot.area} sq.ft.`}
-                            />
-                            <SpecCard 
+                            /> */}
+                            {plot.facing &&<SpecCard 
                                 icon={<Compass className="text-primary" size={24} />}
                                 label="Facing"
                                 value={plot.facing}
-                            />
-                            <SpecCard 
-                                icon={<Landmark className="text-primary" size={24} />}
+                            />}
+                            {/* <SpecCard 
+                                icon={<Landmark className="text-primary" size={48} />}
                                 label="Investment"
                                 value={`₹${plot.price}`}
-                            />
+                            /> */}
                         </section>
 
                         {/* Highlights */}
@@ -104,6 +122,16 @@ export default async function PlotDetailsPage({ params }: { params: Promise<{ ci
                                         <span className="text-luxury-accent font-medium">{highlight}</span>
                                     </div>
                                 ))}
+                            </div>
+                        </section>
+
+                        {/* Additional sections like Location Map, Nearby Amenities, etc. can be added here */}
+                            <section className="mb-20">
+                            <h2 className="text-3xl font-heading text-luxury-accent mb-12 flex items-center gap-4">
+                                Location
+                            </h2>
+                            <div className="w-full h-[400px] rounded-3xl overflow-hidden shadow-lg group">
+                                <iframe src={plot.locationLink} className="w-full h-full" loading="lazy" referrerPolicy="origin" allowFullScreen></iframe>
                             </div>
                         </section>
                     </div>
