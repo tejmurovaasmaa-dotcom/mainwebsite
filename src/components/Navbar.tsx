@@ -25,14 +25,14 @@ export default function Navbar({ className }: NavbarProps) {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleContactClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault();
-    const contactElement = document.getElementById('contact-form');
-    if (contactElement) {
-      contactElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-    setIsOpen(false);
-  };
+  // const handleContactClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  //   e.preventDefault();
+  //   const contactElement = document.getElementById('contact-form');
+  //   if (contactElement) {
+  //     contactElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  //   }
+  //   setIsOpen(false);
+  // };
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-[500] transition-all duration-300 ${
@@ -50,7 +50,7 @@ export default function Navbar({ className }: NavbarProps) {
             let href = item === 'Home' ? '/' : `#${item.toLowerCase()}`;
             if (item === 'Projects') href = '/projects';
             if (item === 'About') href = '/about';
-            if (item === 'Contact') href = '#contact';
+            if (item === 'Contact') href = '/contact';
 
             // Special handling for Projects with Dropdown
             if (item === 'Projects') {
@@ -120,7 +120,7 @@ export default function Navbar({ className }: NavbarProps) {
               <Link 
                 key={item}
                 href={href} 
-                onClick={item === 'Contact' ? handleContactClick : undefined}
+                // onClick={item === 'Contact'   ? handleContactClick : undefined}
                 className={"font-body text-sm font-medium uppercase tracking-widest transition-colors hover:text-primary relative group " + (scrolled || !isHome ? 'text-white' : 'text-white')}
               >
                 {item}
@@ -150,7 +150,7 @@ export default function Navbar({ className }: NavbarProps) {
                 key={item}
                 href={href} 
                 className="font-body text-lg font-medium uppercase tracking-widest hover:text-primary transition-colors border-b border-gray-50 pb-2 text-luxury-accent"
-                onClick={item === 'Contact' ? handleContactClick : () => setIsOpen(false)}
+                // onClick={item === 'Contact' ? handleContactClick : () => setIsOpen(false)}
               >
                 {item}
               </Link>
