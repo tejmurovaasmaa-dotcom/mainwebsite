@@ -540,6 +540,43 @@ export const properties: Property[] = [
         gallery:[
             "https://res.cloudinary.com/dkgo71mgz/image/upload/v1771764631/ltgrn_aliiyo.webp"
         ]
+    },
+    {
+        id:"14",
+        slug:"eon-fairfox-140a-noida",
+        name:"Eon Fairfox",
+        type:"Commercial",
+        description:"Eon Fairfox is a premium commercial development by Eon Group located in Sector 140A, Noida. The project offers high-street retail shops, office spaces, and food & beverage outlets in a modern, well-connected location. Positioned near the Noida–Greater Noida Expressway and close to key residential and commercial hubs, Eon Fairfox provides excellent visibility and footfall potential for businesses seeking growth opportunities in the NCR market.",
+        image:"https://res.cloudinary.com/dkgo71mgz/image/upload/v1771829477/fairfoxen_basmig.webp",
+        location:"Sector 140A, Noida",
+        price:"Starting at ₹1.9 Cr*",
+        size:"Starting at 700 sq.ft.",
+        floors:"15 & 22 Floors",
+        highlights:[
+            "Just minutes away from Sector 142 and Sector 137 Metro Stations",
+            "DND Flyway, linking you directly to Delhi, is about 20 minutes away",
+            "Yamuna Expressway can be reached in just 15 minutes",
+            "Noida-Greater Noida Expressway is only 5 minutes away",
+            "Indira Gandhi International Airport (IGI), Delhi is around a 50-minute drive",
+            "Advant Navis Business Park – 5 minutes",
+        ],
+        city:"noida",
+        locationLink:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4314.0108219482845!2d77.41768807613401!3d28.509956189635382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce92d3edbb4f3%3A0x587a404bfc6777ca!2sEON%20Fairfox%20Noida!5e1!3m2!1sen!2sin!4v1771833221201!5m2!1sen!2sin",
+        possession:"April 2027",
+        area:"13.65 Acres",
+        unit:["Retail Shop","Office Space"],
+        rera:"UPRERAPRJ211016 ",
+        amenities:[
+            "80 percent green area",
+            "Centralized air conditioning",
+            "24×7 security with CCTV surveillance",
+            "Ample parking space",
+            "100% power backup and treated water supply",
+            "88 high-speed elevators and 16 escalators"
+        ],
+        gallery:[
+            "https://res.cloudinary.com/dkgo71mgz/image/upload/v1771829477/fairfoxen_basmig.webp",
+            "https://res.cloudinary.com/dkgo71mgz/image/upload/v1771837807/enffx_dkyq31.webp"
+        ]  
     }
 ];
-  

@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { plotsDetails, Plots } from '../../../plotsDetails';
+import BookTourForm from '../../../BookTourForm';
 import { cities, City } from '../../../city';
 import { notFound } from 'next/navigation';
 import { MapPin, Maximize, Compass, Landmark, CheckCircle2 } from 'lucide-react';
@@ -146,9 +147,7 @@ export default async function PlotDetailsPage({ params }: { params: Promise<{ ci
                                     "Land is the only thing in the world that amounts to anything, for it's the only thing in this world that lasts."
                                 </p>
                                 
-                                <button className="w-full bg-primary hover:bg-primary-dark text-white font-bold py-5 rounded-xl transition-all uppercase tracking-[0.2em] text-sm mb-6">
-                                    Inquire Now
-                                </button>
+                               <BookTourForm propertyName={plot.name || "Plot"} city={plot.city} />
                                 
                                 <div className="pt-8 border-t border-white/10 flex flex-col gap-4">
                                     <div className="flex justify-between items-center text-sm">

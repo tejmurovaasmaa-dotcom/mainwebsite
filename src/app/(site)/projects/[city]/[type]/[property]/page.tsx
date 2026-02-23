@@ -6,7 +6,7 @@ import { notFound } from 'next/navigation';
 import Loading from './loading';
 import { Suspense } from 'react';
 import FavoriteButton from '../../../../../../components/FavoriteButton';
-import BookTourForm from './BookTourForm';
+import BookTourForm from '../../../BookTourForm';
 
 export default async function PropertyDetailsPage({ params }: { params: Promise<{ city: string; type: string; property: string }> }) {
     const { city: citySlug, type: typeSlug, property: propertySlug } = await params;

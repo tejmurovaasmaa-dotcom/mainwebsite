@@ -6,7 +6,7 @@ import { Building2, MapPin, Phone, Mail, Instagram, Linkedin, Twitter , Facebook
 export default function Footer() {
   return (
     <footer className="bg-luxury-cream pt-24 pb-8 border-t border-primary/10" id="contact">
-      <div className="container-custom grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-20">
+      <div className="container-custom grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mb-20">
         <div className="space-y-8">
           <Link href="/" className="font-heading text-2xl text-primary font-bold flex items-center gap-3 tracking-wider" aria-label="Trust Bridge Group Home">
             <Image src={logo} alt="Trust Bridge Group Logo" width={70} height={70} sizes="70px"/>
@@ -38,7 +38,7 @@ export default function Footer() {
           </ul>
         </div>
         
-        <div className="space-y-8 hidden md:block">
+        <div className="space-y-8 hidden"> // This section is hidden for now, can be used for future expansion
           <h2 className="font-heading text-xl text-luxury-accent uppercase tracking-widest border-b border-primary/20 pb-2 inline-block">Services</h2>
           <ul className="space-y-4">
             {['Consultation', 'Property Management', 'Investment'].map((item) => (

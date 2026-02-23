@@ -39,6 +39,5 @@ export const plotsDetails: Plots[] = [
             "Investment-Focused Growth Corridor"
         ]
     },
-    
 ]
 
