@@ -380,7 +380,7 @@ export const properties: Property[] = [
             "Noida’s highest infinity pool at 40th floor (Sky Hub)",
             "Large-format homes with 11–12 ft ceiling height",
             "Approx. 80% open green area with vertical green concept",
-            "Premium clubhouse (40,000–100,000 sq.ft.) with luxury amenities"
+            "Premium clubhouse (40,000 – 100,000 sq.ft.) with luxury amenities"
         ],
         city:"noida",
         locationLink:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d339.60116425809144!2d77.3718034809748!3d28.542820562503497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce7104037aa19%3A0xecdec86fd99c2c25!2sEkanam%20by%20Great%20Value!5e1!3m2!1sen!2sin!4v1771148913179!5m2!1sen!2sin",
