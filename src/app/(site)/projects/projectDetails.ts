@@ -337,7 +337,7 @@ export const properties: Property[] = [
         videoLink:"",
         location:"Sector 98, Noida",
         price:"Starting at ₹1.5 Cr*",
-        size:"1BHK &2BHK Suites",
+        size:"Retail Shop",
         floors:"3 Floors",
         highlights:[
         "Luxury high-street commercial development",
@@ -351,8 +351,7 @@ export const properties: Property[] = [
         locationLink:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2095.095658102687!2d77.35611625528433!3d28.53531521266614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce74ba6d0c731%3A0x521fc3e5840a23!2sSmartworld%20Residences%20by%20Elie%20Saab%2C%20Sector%2098%2C%20Noida!5e1!3m2!1sen!2sin!4v1771138318394!5m2!1sen!2sin",
         possession:"December 2030 (Expected)",
         area: "Approx. 6 Acres",
-        unit:["1BHK Suite – 695 sq.ft.",
-        "2BHK Suite – 1665 sq.ft."],
+        unit:["Retail Shops - 750 sq.ft."],
         rera:"UPRERAPRJ300532/12/2025",
         amenities:[
         "Curated retail, lifestyle, spa & fine dining concepts",
@@ -578,5 +577,54 @@ export const properties: Property[] = [
             "https://res.cloudinary.com/dkgo71mgz/image/upload/v1771829477/fairfoxen_basmig.webp",
             "https://res.cloudinary.com/dkgo71mgz/image/upload/v1771837807/enffx_dkyq31.webp"
         ]  
-    }
+    },
+{
+    id: "15",
+    slug: "gygy-mentis-sector-140-noida",
+    name: "GYGY Mentis",
+    type: "Commercial",
+    description: "GYGY Mentis is a premium IT/ITES commercial development by GYGY Infradesign located in Sector 140, Noida. Spread across approximately 4.94 acres, the project is planned in two phases (2.47 acres each). Designed as a Grade-A office destination, it offers modern workspaces with efficient floor plates, high-speed elevators, advanced security systems, and sustainable building features. Strategically positioned along the Noida Expressway, the project benefits from seamless connectivity to Delhi, Greater Noida, and upcoming infrastructure corridors. With contemporary architecture and corporate-focused amenities, GYGY Mentis aims to serve IT companies, startups, and enterprise-level businesses seeking scalable office environments.",
+    image: "https://res.cloudinary.com/dkgo71mgz/image/upload/v1771847814/gymnts_i5yudt.webp",
+    videoLink: "",
+    location: "Sector 140, Noida Expressway",
+    price: "On Request",
+    size: "Starting from 380 sq.ft.",
+    floors: "Multiple Towers | G+20 (approx.)",
+    highlights: [
+        "Located on Noida Expressway – high-growth commercial corridor",
+        "Approx. 4.94 acres development (Phase 1 & 2)",
+        "Total built-up area ~1,50,000 sq.ft.",
+        "Total saleable area ~1,20,000 sq.ft.",
+        "Designed for IT/ITES and corporate offices",
+        "Modern façade with energy-efficient glass elevation",
+        "Ample parking space for owners and visitors",
+        "24x7 security with CCTV surveillance",
+        "High-speed elevators and power backup",
+        "Close to metro station and residential catchment"
+    ],
+    city: "Noida",
+    locationLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47423.03659431304!2d77.39929570597778!3d28.49876702144311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce992b0fabe45%3A0xe66a3dd9d495cfe0!2sGYGY%20Mentis%20Official!5e1!3m2!1sen!2sin!4v1771849533429!5m2!1sen!2sin",
+    possession: "March 2026",
+    area: "4.94 Acres",
+    unit: [
+        "Office Space 380 - 1500 sq.ft.",
+        "Entire Floor Plate Customizable",
+    ],
+    rera: "UPRERAPRJ251909",
+    amenities: [
+        "Centralized air-conditioning provision",
+        "High-speed passenger elevators",
+        "Dedicated service elevators",
+        "100% power backup",
+        "Multi-level car parking",
+        "CCTV surveillance",
+        "Fire fighting system as per norms",
+        "Reception and waiting lounge",
+        "Landscaped common areas",
+        "Food court / cafeteria space"
+    ],
+    gallery: [
+        "https://res.cloudinary.com/dkgo71mgz/image/upload/v1771847814/gymnts_i5yudt.webp"
+    ]
+}
 ];
