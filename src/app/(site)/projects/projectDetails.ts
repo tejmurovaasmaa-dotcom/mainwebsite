@@ -587,7 +587,7 @@ export const properties: Property[] = [
     image: "https://res.cloudinary.com/dkgo71mgz/image/upload/v1771847814/gymnts_i5yudt.webp",
     videoLink: "",
     location: "Sector 140, Noida Expressway",
-    price: "On Request",
+    price: "Starting at ₹30 Lac*",
     size: "Starting from 380 sq.ft.",
     floors: "Multiple Towers | G+20 (approx.)",
     highlights: [
