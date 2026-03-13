@@ -416,7 +416,7 @@ export const properties: Property[] = [
         description:"ACE Verde is a premium residential development by ACE Group located on the Yamuna Expressway in Sector 22A, Greater Noida. Spread over ~8 acres, it offers spacious luxury apartments with wide green views, modern amenities, and excellent regional connectivity. The project is positioned as a future-forward living destination benefiting from upcoming infrastructure like the Noida International Airport, Film City, and major sports & entertainment hubs. It is RERA approved and designed for families and investors seeking comfort, convenience, and strong appreciation potential.",
         image:"https://res.cloudinary.com/dkgo71mgz/image/upload/v1771667241/verda_jikuqr.webp",
         location:"Sector 22A, Yamuna Expressway, Greater Noida, Uttar Pradesh, India",
-        price:"Starting at 86 Lacs",
+        price:"Starting at 1.62 Cr",
         size:"Starting at 420 sq.ft.",
         floors:"25 Floors",
         highlights:[
