@@ -563,7 +563,7 @@ export const properties: Property[] = [
         locationLink:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4314.0108219482845!2d77.41768807613401!3d28.509956189635382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce92d3edbb4f3%3A0x587a404bfc6777ca!2sEON%20Fairfox%20Noida!5e1!3m2!1sen!2sin!4v1771833221201!5m2!1sen!2sin",
         possession:"April 2027",
         area:"13.65 Acres",
-        unit:["Retail Shop","Office Space"],
+        unit:["Retail Shop","Office Space","Studio Apartments"],
         rera:"UPRERAPRJ211016 ",
         amenities:[
             "80 percent green area",
@@ -578,53 +578,97 @@ export const properties: Property[] = [
             "https://res.cloudinary.com/dkgo71mgz/image/upload/v1771837807/enffx_dkyq31.webp"
         ]  
     },
-{
-    id: "15",
-    slug: "gygy-mentis-sector-140-noida",
-    name: "GYGY Mentis",
-    type: "Commercial",
-    description: "GYGY Mentis is a premium IT/ITES commercial development by GYGY Infradesign located in Sector 140, Noida. Spread across approximately 4.94 acres, the project is planned in two phases (2.47 acres each). Designed as a Grade-A office destination, it offers modern workspaces with efficient floor plates, high-speed elevators, advanced security systems, and sustainable building features. Strategically positioned along the Noida Expressway, the project benefits from seamless connectivity to Delhi, Greater Noida, and upcoming infrastructure corridors. With contemporary architecture and corporate-focused amenities, GYGY Mentis aims to serve IT companies, startups, and enterprise-level businesses seeking scalable office environments.",
-    image: "https://res.cloudinary.com/dkgo71mgz/image/upload/v1771847814/gymnts_i5yudt.webp",
-    videoLink: "",
-    location: "Sector 140, Noida Expressway",
-    price: "Starting at ₹30 Lac*",
-    size: "Starting from 380 sq.ft.",
-    floors: "Multiple Towers | G+20 (approx.)",
-    highlights: [
-        "Located on Noida Expressway – high-growth commercial corridor",
-        "Approx. 4.94 acres development (Phase 1 & 2)",
-        "Total built-up area ~1,50,000 sq.ft.",
-        "Total saleable area ~1,20,000 sq.ft.",
-        "Designed for IT/ITES and corporate offices",
-        "Modern façade with energy-efficient glass elevation",
-        "Ample parking space for owners and visitors",
-        "24x7 security with CCTV surveillance",
-        "High-speed elevators and power backup",
-        "Close to metro station and residential catchment"
-    ],
-    city: "Noida",
-    locationLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47423.03659431304!2d77.39929570597778!3d28.49876702144311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce992b0fabe45%3A0xe66a3dd9d495cfe0!2sGYGY%20Mentis%20Official!5e1!3m2!1sen!2sin!4v1771849533429!5m2!1sen!2sin",
-    possession: "March 2026",
-    area: "4.94 Acres",
-    unit: [
-        "Office Space 380 - 1500 sq.ft.",
-        "Entire Floor Plate Customizable",
-    ],
-    rera: "UPRERAPRJ251909",
-    amenities: [
-        "Centralized air-conditioning provision",
-        "High-speed passenger elevators",
-        "Dedicated service elevators",
-        "100% power backup",
-        "Multi-level car parking",
-        "CCTV surveillance",
-        "Fire fighting system as per norms",
-        "Reception and waiting lounge",
-        "Landscaped common areas",
-        "Food court / cafeteria space"
-    ],
-    gallery: [
-        "https://res.cloudinary.com/dkgo71mgz/image/upload/v1771847814/gymnts_i5yudt.webp"
-    ]
-}
+    {
+        id: "15",
+        slug: "gygy-mentis-sector-140-noida",
+        name: "GYGY Mentis",
+        type: "Commercial",
+        description: "GYGY Mentis is a premium IT/ITES commercial development by GYGY Infradesign located in Sector 140, Noida. Spread across approximately 4.94 acres, the project is planned in two phases (2.47 acres each). Designed as a Grade-A office destination, it offers modern workspaces with efficient floor plates, high-speed elevators, advanced security systems, and sustainable building features. Strategically positioned along the Noida Expressway, the project benefits from seamless connectivity to Delhi, Greater Noida, and upcoming infrastructure corridors. With contemporary architecture and corporate-focused amenities, GYGY Mentis aims to serve IT companies, startups, and enterprise-level businesses seeking scalable office environments.",
+        image: "https://res.cloudinary.com/dkgo71mgz/image/upload/v1771847814/gymnts_i5yudt.webp",
+        videoLink: "",
+        location: "Sector 140, Noida Expressway",
+        price: "Starting at ₹30 Lac*",
+        size: "Starting from 380 sq.ft.",
+        floors: "Multiple Towers | G+20 (approx.)",
+        highlights: [
+            "Located on Noida Expressway – high-growth commercial corridor",
+            "Approx. 4.94 acres development (Phase 1 & 2)",
+            "Total built-up area ~1,50,000 sq.ft.",
+            "Total saleable area ~1,20,000 sq.ft.",
+            "Designed for IT/ITES and corporate offices",
+            "Modern façade with energy-efficient glass elevation",
+            "Ample parking space for owners and visitors",
+            "24x7 security with CCTV surveillance",
+            "High-speed elevators and power backup",
+            "Close to metro station and residential catchment"
+        ],
+        city: "Noida",
+        locationLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47423.03659431304!2d77.39929570597778!3d28.49876702144311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce992b0fabe45%3A0xe66a3dd9d495cfe0!2sGYGY%20Mentis%20Official!5e1!3m2!1sen!2sin!4v1771849533429!5m2!1sen!2sin",
+        possession: "March 2026",
+        area: "4.94 Acres",
+        unit: [
+            "Office Space 380 - 1500 sq.ft.",
+            "Entire Floor Plate Customizable",
+        ],
+        rera: "UPRERAPRJ251909",
+        amenities: [
+            "Centralized air-conditioning provision",
+            "High-speed passenger elevators",
+            "Dedicated service elevators",
+            "100% power backup",
+            "Multi-level car parking",
+            "CCTV surveillance",
+            "Fire fighting system as per norms",
+            "Reception and waiting lounge",
+            "Landscaped common areas",
+            "Food court / cafeteria space"
+        ],
+        gallery: [
+            "https://res.cloudinary.com/dkgo71mgz/image/upload/v1771847814/gymnts_i5yudt.webp"
+        ]
+    },
+    {
+        id:"16",
+        slug:"prateek-canary-sector-150-noida",
+        name:"Prateek Canary",
+        type:"Residential",
+        description:"Prateek Canary is a premium residential development by Prateek Group located in Sector 150, Noida. Spread across approximately 12.55 acres, the project offers spacious 3 and 4 BHK apartments with modern amenities and excellent connectivity to Noida Expressway and key NCR hubs. Designed for families and investors seeking quality living spaces, Prateek Canary combines contemporary architecture with landscaped green areas to create a comfortable and convenient living environment.",
+        image:"https://res.cloudinary.com/dkgo71mgz/image/upload/v1774079303/Prateek105Noida_d135ig.jpg",
+        location:"Sector 150, Noida",
+        price:"Starting at ₹2.9 Cr*",
+        size:"1700 - 3355 sq.ft.",
+        floors:"28 Floors",
+        highlights:[
+            "Tri-Expressway Access",
+            " Located approximately 25–30 minutes away from the upcoming Noida International Airport (Jewar)",
+            " Sector 148 Metro Station (Aqua Line) is the closest transit point, connecting you to the rest of Noida and Delhi.",
+            " Directly overlooks a 9-hole golf course and is close to the Expocentre and Buddh International Circuit.",
+            "It is the only sector in Noida where 80% of the land is reserved for greenery and open spaces."
+        ],
+        city:"noida",
+        locationLink:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1247.1053692422977!2d77.49115768132351!3d28.420569402942895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc17c0b35aac7%3A0x785c083e8debaa0!2sPrateek%20Canary!5e1!3m2!1sen!2sin!4v1774087973864!5m2!1sen!2sin",
+        possession:"October 2027 (Expected)",
+        area:"Approx. 12.55 Acres",
+        unit:[
+            "3 BHK + ELITE – 1700 sq.ft.",
+            "3 BHK DELUXE – 2040 sq.ft.",
+            "3 BHK LUXURY - 2555 sq.ft.",
+            "4BHK LUXURY - 3355 sq.ft.",
+            "DUPLEX PENTHOUSE - 6100 sq.ft."
+        ],
+        rera:"UPRERAPRJ591510",
+        amenities:[
+            "Panoramic Golf Course Views",
+            "Low density project with only 664 units",
+            "Grand Lobby",
+            "Tranquil water bodies",
+            "Huge private party deck",
+            "Double height ceiling",
+            "Thematic garden",
+            "Lawn tennis court",
+        ],
+        gallery:[
+            "https://res.cloudinary.com/dkgo71mgz/image/upload/v1774079303/Prateek105Noida_d135ig.jpg"
+        ]
+    }
 ];
