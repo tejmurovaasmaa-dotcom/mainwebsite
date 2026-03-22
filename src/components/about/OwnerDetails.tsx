@@ -19,11 +19,6 @@ const owners: Owner[] = [
     post: 'Director',
     image: "https://res.cloudinary.com/dkgo71mgz/image/upload/v1767591918/asya_vhdd8j.jpg",
   },
-  {
-    name: 'RAM SHARMA',
-    post: 'Business Head',
-    image: 'https://res.cloudinary.com/dkgo71mgz/image/upload/v1770553639/ram_sgzjix.png',
-  },
 ];
 
 export default function OwnerDetails() {
@@ -39,7 +34,7 @@ export default function OwnerDetails() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 grid-cols-2 gap-8 lg:gap-12">
           {owners.map((owner, index) => (
             <div
               key={index}

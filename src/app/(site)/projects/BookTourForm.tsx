@@ -27,7 +27,7 @@ export default function BookTourForm({ propertyName, city }: BookTourFormProps) 
         className="w-full bg-primary text-white py-5 rounded-xl hover:bg-primary-dark transition-all duration-300 uppercase tracking-[0.2em] text-xs font-bold shadow-xl shadow-primary/20 relative z-10 min-h-[44px]"
         aria-label="Book a private tour"
       >
-        Book a Private Tour
+        Get Details
       </button>
 
       {isOpen && mounted && <BookTourModal propertyName={propertyName} city={city} onClose={() => setIsOpen(false)} />}
