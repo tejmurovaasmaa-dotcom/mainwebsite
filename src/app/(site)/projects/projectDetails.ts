@@ -209,7 +209,7 @@ export const properties: Property[] = [
             "Strong rental and investment potential in fast-developing NCR market"
         ],
         city: "yamuna-expressway",
-        locationLink: "https://www.google.com/maps?q=ACE+Hive+Sector+22A+Yamuna+Expressway+Greater+Noida",
+        locationLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12222.843409747386!2d77.54300595893973!3d28.328073400746135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc77ab5b801d5%3A0xa275366232ddff8e!2sAce%20Hive!5e1!3m2!1sen!2sin!4v1774249054912!5m2!1sen!2sin",
         possession: "Sep 2028(Expected)", // based on RERA timeline :contentReference[oaicite:4]{index=4}
         area: "Approx. 5 Acres", // development land size :contentReference[oaicite:5]{index=5}
         unit: [
