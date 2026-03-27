@@ -670,5 +670,57 @@ export const properties: Property[] = [
         gallery:[
             "https://res.cloudinary.com/dkgo71mgz/image/upload/v1774079303/Prateek105Noida_d135ig.jpg"
         ]
+    },
+    {
+        id:"17",
+        slug:"sobha-rivana-sector-01-greater-noida-west",
+        name:"Sobha Rivana",
+        type:"Residential",
+        description:"Sobha Rivana is a premium residential development by Sobha Limited located in Sector 1, Greater Noida West. Spread across approximately 12 acres, the project offers spacious 2, 3 and 4 BHK apartments with modern amenities and excellent connectivity to key NCR hubs. Designed for families and investors seeking quality living spaces, Sobha Rivana combines contemporary architecture with landscaped green areas to create a comfortable and convenient living environment.",
+        image:"https://res.cloudinary.com/dkgo71mgz/image/upload/v1774266466/Untitled_design_yxyshl.webp",
+        location:"Sector 1, Greater Noida West",
+        price:"Starting at ₹1.99 Cr*",
+        size:"1300 - 2500 sq.ft.",
+        floors:"G+45 Floors",
+        highlights:[
+            "Spacious 2, 3 & 4 BHK apartments with modern layouts",
+            "Gated community with 24/7 security and surveillance",
+            "Dedicated parking for residents and visitors",
+            "Premium amenities including clubhouse, gym, and swimming pool", 
+            "Landscaped gardens and open green spaces",
+            "Underground cabling, drainage, and utility services",
+            "Power backup and water supply for uninterrupted living",
+            "Well-planned towers with ample ventilation and natural light",
+            "Excellent connectivity to Greater Noida West, Delhi, and nearby hubs",
+            "Perfect for family living or long-term investment"
+        ],
+        city:"greater-noida",
+        locationLink:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11860.679614024875!2d77.42284808397307!3d28.577310869424522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef32213980d5%3A0xd250f82d12a9cc79!2sSobha%20Rivana!5e1!3m2!1sen!2sin!4v1774269083983!5m2!1sen!2sin",
+        possession:"October 2027 (Expected)",
+        area:"Approx. 12 Acres",
+        unit:[
+            "2 BR+2T – 1300 sq.ft.",
+            "3 BR + 2T - 1600 sq.ft.",
+            "3 BR + 3T - 1850 sq.ft.",
+            "4 BR + 4T - 2500 sq.ft."
+        ],
+        rera:"UPRERAPRJ313638/03/2026",
+        amenities:[
+            "Swimming Pool & Kids’ Pool – Relax and enjoy refreshing water spaces",
+            "Fully Equipped Gym – Modern fitness equipment for all age groups",
+            "Landscaped Gardens & Green Spaces – Peaceful areas to unwind and connect with nature",
+            "Jogging & Cycling Tracks – Stay active with safe outdoor paths",
+            "Multipurpose Hall – Host social events and community gatherings",
+            "Sports Courts – Includes badminton, tennis, and basketball courts",
+            "Children’s Play Area – Safe and fun play zones for kids",
+            "Senior Citizen Zones – Relaxation and social spaces for elders",
+            "Meditation & Yoga Areas – Quiet spaces for wellness and mental peace",
+            "Outdoor Seating & Open Lounge Areas – Casual spots to meet and relax",
+            "24/7 Security & CCTV Surveillance – Safe and secure living environment",
+            "Power Backup & Ample Parking – Ensures convenience for residents and visitors"
+        ],
+        gallery:[
+            "https://res.cloudinary.com/dkgo71mgz/image/upload/v1774266466/Untitled_design_yxyshl.webp"
+        ]
     }
 ];
