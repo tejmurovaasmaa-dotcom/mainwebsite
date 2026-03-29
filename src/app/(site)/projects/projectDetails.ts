@@ -722,5 +722,60 @@ export const properties: Property[] = [
         gallery:[
             "https://res.cloudinary.com/dkgo71mgz/image/upload/v1774266466/Untitled_design_yxyshl.webp"
         ]
+    },
+    {
+        id: "18",
+        slug: "wave-city-ghaziabad",
+        name: "Wave City",
+        type: "Residential",
+        description: "Wave City is a large integrated residential township by Wave Infratech located in Ghaziabad, Uttar Pradesh. Spread across approximately 4,200 acres, the development includes apartments, villas, plotted development and commercial spaces with extensive open green areas, modern amenities, and strong connectivity to planned infrastructure such as the Delhi-Meerut Expressway and upcoming metro lines. The township is designed for families and investors seeking quality living and long-term appreciation. The master plan emphasizes open space, lifestyle amenities, and future-ready infrastructure.",
+        
+        image: "https://res.cloudinary.com/dkgo71mgz/image/upload/v1774767918/wcctybckimg_myrheh.webp", // replace with actual asset, // optional promo video
+
+        location: "NH-24 (Delhi-Meerut Expressway), Ghaziabad, Uttar Pradesh",
+        locationLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20623.635645928032!2d77.50614235391734!3d28.650948029209637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1934e30505b%3A0x6bcac3cfd71bc573!2sWave%20City!5e1!3m2!1sen!2sin!4v1774762358589!5m2!1sen!2sin",
+
+        price: "Starting at ₹1.48 Cr*",
+        size: "1118 – 1750 sq.ft ",
+        // floors: "High-rise apartments (up to ~30 floors) + low-rise villas",
+
+        highlights: [
+            "Smart city infrastructure with ICCC (Integrated Command & Control Center)",
+            "Located on NH-24 (Delhi-Meerut Expressway)",
+            "Wide roads, underground wiring, and smart utilities",
+            "Gated township with 24/7 security",
+            "Schools, hospitals, malls within township",
+            "High appreciation potential due to infrastructure growth",
+            "Green spaces and landscaped parks"
+        ],
+
+        city: "ghaziabad",
+        possession: "Varies by project phase",
+        area: "Approx. 4,200 Acres",
+
+        unit: [
+            "3 BHK Apartment",
+        ],
+
+        rera: " UPRERAPRJ678818/09/2024",
+
+        amenities: [
+            "Clubhouse",
+            "Swimming Pool",
+            "Gymnasium",
+            "Parks and Green Spaces",
+            "Jogging Tracks",
+            "Sports Facilities (Cricket, Tennis, Basketball)",
+            "Children's Play Area",
+            "24x7 Security",
+            "Power Backup",
+            "Retail & Shopping Complex",
+            "Schools & Educational Institutions",
+            "Healthcare Facilities"
+        ],
+
+        gallery: [
+            "https://res.cloudinary.com/dkgo71mgz/image/upload/v1774767918/wcctybckimg_myrheh.webp"
+        ]
     }
 ];

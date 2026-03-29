@@ -32,4 +32,11 @@ export const cities: City[] = [
         description: "The Future of Connectivity, home to stunning skylines and luxury living.",
         projectCount: totalProjects()[2]
     },
+    {
+        name: "Ghaziabad",
+        slug: "ghaziabad",
+        image: "https://res.cloudinary.com/dkgo71mgz/image/upload/v1774769212/gzb_f0bjhg.webp",
+        description: "Ghaziabad: Where Heritage Meets Modernity, a city of vibrant culture and rapid growth.",
+        projectCount: totalProjects()[3]
+    }
 ];
