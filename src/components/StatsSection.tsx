@@ -1,9 +1,9 @@
 export default function StatsSection() {
   const stats = [
-    { value: "10+", label: "Years Excellence" },
-    { value: "500+", label: "Happy Families" },
+    { value: "5+", label: "Years Excellence" },
+    { value: "100+", label: "Happy Families" },
     { value: "50+", label: "Prime Projects" },
-    { value: "₹200Cr+", label: "Managed Assets" }
+    { value: "₹50Cr+", label: "Managed Assets" }
   ];
 
   return (
