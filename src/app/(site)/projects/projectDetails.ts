@@ -777,5 +777,56 @@ export const properties: Property[] = [
         gallery: [
             "https://res.cloudinary.com/dkgo71mgz/image/upload/v1774767918/wcctybckimg_myrheh.webp"
         ]
+    },
+    {
+        id: "19",
+        slug: "max-estate-sector-105-noida",
+        name: "Max Estate",
+        type: "Residential",
+        description: "Max Estate is a premium residential development by Max Estates located in Sector 105, Noida. Spread across approximately 5 acres, the project offers spacious 3 and 4 BHK apartments with modern amenities and excellent connectivity to Noida Expressway and key NCR hubs. Designed for families and investors seeking quality living spaces, Max Estate combines contemporary architecture with landscaped green areas to create a comfortable and convenient living environment.",
+        image: "https://res.cloudinary.com/dkgo71mgz/image/upload/v1774849875/mxestte105_gyxvqk.webp",
+        location: "Sector 105, Noida, Uttar Pradesh",
+        locationLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4313.124153800435!2d77.3621103761346!3d28.53162858865437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce7e1686bb3fd%3A0x6aa7e35d6cb54ee3!2sMax%20Estates-%20Sector%20105!5e1!3m2!1sen!2sin!4v1772434146839!5m2!1sen!2sin",
+        price: "Starting at ₹9.56 Cr*",
+        size: "1118 – 1750 sq.ft ",
+        highlights: [
+            "Premium residential project in Sector 105, Noida",
+            "Located near Noida Expressway",
+            "Luxury 3 & 4 BHK apartments",
+            "Low density development with large green areas",
+            "Modern architecture with premium specifications",
+            "Excellent connectivity to Delhi, Noida & Greater Noida",
+            "Close to top schools, hospitals and commercial hubs",
+            "Developed by Max Estates – a trusted real estate brand"
+        ],
+        city: "noida",
+        possession: "Varies by project phase",
+        area: "10.33 Acres",
+        unit: [
+            "4 BHK",
+            "4 + FL BHK",
+            "Duplex",
+            "Townhouse"
+        ],
+        rera: " UPRERAPRJ529777/03/2026",
+        amenities: [
+            "Luxury Clubhouse",
+            "Swimming Pool",
+            "Fully Equipped Gymnasium",
+            "Landscaped Gardens",
+            "Jogging & Cycling Track",
+            "Indoor Games Area",
+            "Sports Courts (Tennis, Basketball, Badminton)",
+            "Children's Play Area",
+            "Yoga & Meditation Zone",
+            "Multipurpose Hall",
+            "24x7 Security with CCTV",
+            "Power Backup",
+            "Dedicated Parking",
+            "Retail & Convenience Stores"
+        ],
+        gallery: [
+            "https://res.cloudinary.com/dkgo71mgz/image/upload/v1774849875/mxestte105_gyxvqk.webp"
+        ]
     }
 ];
