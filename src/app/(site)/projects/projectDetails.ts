@@ -828,5 +828,25 @@ export const properties: Property[] = [
         gallery: [
             "https://res.cloudinary.com/dkgo71mgz/image/upload/v1774849875/mxestte105_gyxvqk.webp"
         ]
+    },
+    {
+        id:"20",
+        slug:"taj-skyscape-sector-129-noida",
+        name:"Taj Skyscape",
+        type:"Residential",
+        description:"Taj Skyscape is a premium residential development by Taj Housing located in Sector 129, Noida. Spread across approximately 5 acres, the project offers spacious 3 and 4 BHK apartments with modern amenities and excellent connectivity to Noida Expressway and key NCR hubs. Designed for families and investors seeking quality living spaces, Taj Skyscape combines contemporary architecture with landscaped green areas to create a comfortable and convenient living environment.",
+        image:"https://res.cloudinary.com/dkgo71mgz/image/upload/v1774939128/tjakacp_bwaay8.webp",
+        location:"Sector 129, Noida, Uttar Pradesh",
+        price:"On request",
+        rera:"Coming Soon",
+        size:"On request",
+        floors:"~57 Floors",
+        city:"noida",
+        possession:"December 2030 (Expected)",
+        unit:[],
+        amenities:["Coming Soon"],
+        gallery:[
+            "https://res.cloudinary.com/dkgo71mgz/image/upload/v1774939128/tjakacp_bwaay8.webp"
+        ]
     }
 ];
