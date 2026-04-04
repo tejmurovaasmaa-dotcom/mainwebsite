@@ -195,7 +195,7 @@ export const properties: Property[] = [
         type: "Commercial",
         description:
             "ACE Hive is an upcoming premium commercial and mixed-use development by ACE Group, located alongside the Yamuna Expressway in Sector 22A, Greater Noida. Positioned within the ACE AcreVille integrated township, the project blends high-street retail shops, business suites, studio apartments, food & dining zones, and entertainment spaces — creating a vibrant hub designed for investors, entrepreneurs, and businesses seeking high visibility and long-term growth potential. It enjoys excellent connectivity to Jewar International Airport and major NCR infrastructure corridors, making it a strategic commercial destination. :contentReference[oaicite:0]{index=0}",
-        image: "https://res.cloudinary.com/dkgo71mgz/image/upload/v1770546261/hero_bg_ttgvvq.webp",
+        image: "https://res.cloudinary.com/dkgo71mgz/image/upload/v1775286165/achv_eysdhe.webp",
         location: "Sector 22A, Yamuna Expressway, Greater Noida",
         price: "Starting at ₹76.8 Lac", // approximate market range :contentReference[oaicite:1]{index=1}
         size: "Retail & Studio Apartments (approx. 48 sq.ft – 800 sq.ft)", // typical ranges :contentReference[oaicite:2]{index=2}
@@ -229,7 +229,7 @@ export const properties: Property[] = [
             "Ample multi-level parking"
         ],
         gallery: [
-            "https://res.cloudinary.com/dkgo71mgz/image/upload/v1770546261/hero_bg_ttgvvq.webp"
+            "https://res.cloudinary.com/dkgo71mgz/image/upload/v1775286165/achv_eysdhe.webp"
         ],
     },
     {
