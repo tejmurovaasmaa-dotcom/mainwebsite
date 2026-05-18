@@ -848,5 +848,145 @@ export const properties: Property[] = [
         gallery:[
             "https://res.cloudinary.com/dkgo71mgz/image/upload/v1774939128/tjakacp_bwaay8.webp"
         ]
+    },
+    {
+        id: "21",
+        slug: "islands-by-gaurs-greater-noida",
+        name: "The Islands By Gaurs",
+        type: "Residential",
+        description:
+            "The Islands By Gaurs is an ultra-luxury residential development by Gaurs Group in Greater Noida West. Spread across approximately 6.25 acres, the project offers spacious 4 and 5 BHK residences with world-class amenities, premium interiors, and excellent connectivity to Noida, Delhi, and the upcoming metro network.",
+        image:
+            "https://res.cloudinary.com/dkgo71mgz/image/upload/v1779020879/ilndgr_clebce.webp",
+        location: "Greater Noida West",
+        price: "On Request",
+        size: "3683 - 6011 sq.ft",
+        highlights: [
+            "Ultra-luxury 4 & 5 BHK residences",
+            "Located in Greater Noida West",
+            "Spread across 6.25 acres",
+            "Large private decks with panoramic views",
+            "Premium clubhouse with world-class amenities",
+            "Swimming pool, gym, spa and wellness facilities",
+            "Landscaped gardens and open green spaces",
+            "High-speed elevators and smart home features",
+            "Multi-tier security with CCTV surveillance",
+            "Excellent connectivity to Noida and Delhi"
+        ],
+
+        city: "greater-noida",
+
+        locationLink:
+            "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1236.9464375130394!2d77.51233456748726!3d28.46483803730407!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x654170e6e66019b5%3A0xca7c0a742f801e08!2sThe%20Islands%20by%20Gaurs!5e1!3m2!1sen!2sin!4v1779086638180!5m2!1sen!2sin",
+
+        possession: "April 2030",
+
+        area: "6.25 Acres",
+
+        unit: [
+            "4 BHK - 3683 to 4886 sq.ft",
+            "5 BHK - 6011 sq.ft"
+        ],
+
+        rera: "UPRERAPRJ734569",
+
+        amenities: [
+            "Grand Clubhouse",
+            "Swimming Pool",
+            "Fully Equipped Gymnasium",
+            "Spa and Wellness Center",
+            "Indoor Games Room",
+            "Kids Play Area",
+            "Jogging Track",
+            "Landscaped Gardens",
+            "Multipurpose Hall",
+            "Yoga and Meditation Deck",
+            "24x7 Security",
+            "CCTV Surveillance",
+            "Power Backup",
+            "High-Speed Elevators",
+            "Covered Car Parking",
+            "Smart Home Features"
+        ],
+
+        gallery: [
+            "https://res.cloudinary.com/dkgo71mgz/image/upload/v1779088961/Screenshot_2026-05-18_125149_oq4taj.png",
+            "https://res.cloudinary.com/dkgo71mgz/image/upload/v1779088960/Screenshot_2026-05-18_125102_u72ofm.png",
+            "https://res.cloudinary.com/dkgo71mgz/image/upload/v1779088960/Screenshot_2026-05-18_125117_rooodd.png",
+            "https://res.cloudinary.com/dkgo71mgz/image/upload/v1779088960/Screenshot_2026-05-18_124939_dvus3h.png"
+        ]
+    },
+    {
+    id: "22",
+    slug: "legacy-by-gaur-nri-golf-estate",
+    name: "Legacy By Gaur NRI Golf Estate",
+    type: "Residential",
+
+    description:
+        "Legacy By Gaur NRI Golf Estate is an ultra-luxury residential project by Gaurs Group in Greater Noida West. Designed for premium living, the development offers expansive 4 BHK residences with sophisticated interiors, private decks, world-class amenities, and excellent connectivity to Noida, Delhi, and the upcoming metro corridor.",
+
+    image:
+        "https://res.cloudinary.com/dkgo71mgz/image/upload/v1779104006/2bb5816a-d0dc-49fb-9701-4b086f00c91a.png",
+
+    location: "Sector 16C, Greater Noida West",
+
+    price: "On Request",
+
+    size: "2950 - 4500 sq.ft (Approx.)",
+
+    highlights: [
+        "Ultra-luxury residences in Gaur NRI City",
+        "Spacious 4 BHK apartments with private decks",
+        "Located adjacent to a premium golf-themed township",
+        "Grand clubhouse with modern lifestyle amenities",
+        "Low-density development with expansive green areas",
+        "Premium specifications and branded fittings",
+        "Smart home automation features",
+        "Multi-layer security with CCTV surveillance",
+        "Excellent connectivity to Noida and Delhi",
+        "Developed by the trusted Gaurs Group"
+    ],
+
+    city: "greater-noida",
+
+    locationLink:
+        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d618.4764380805898!2d77.51360612567785!3d28.464287937211726!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc1b1c6b66ab9%3A0x8d072ff2903acb37!2sLegacy%20by%20Gaurs!5e1!3m2!1sen!2sin!4v1779104284287!5m2!1sen!2sin",
+
+    possession: "December 2030",
+
+    area: "Approx. 5 Acres",
+
+    unit: [
+        "4 BHK - 2950 to 3500 sq.ft",
+        "4 BHK + Study - 3800 to 4500 sq.ft"
+    ],
+
+    rera: "UPRERAPRJ688396/10/2024",
+
+    amenities: [
+        "Grand Clubhouse",
+        "Swimming Pool",
+        "Gymnasium",
+        "Spa and Wellness Center",
+        "Indoor Games Room",
+        "Yoga and Meditation Zone",
+        "Jogging Track",
+        "Kids Play Area",
+        "Landscaped Gardens",
+        "Multipurpose Hall",
+        "Sports Courts",
+        "24x7 Security",
+        "CCTV Surveillance",
+        "Power Backup",
+        "High-Speed Elevators",
+        "Covered Car Parking",
+        "Smart Home Automation"
+    ],
+
+    gallery: [
+        "https://res.cloudinary.com/dkgo71mgz/image/upload/v1779104099/67b2d74e-106d-432d-ad87-fae97e105153.png",
+        "https://res.cloudinary.com/dkgo71mgz/image/upload/v1779104159/788dacf1-39a4-4d61-b366-4032605c65ea.png",
+        "https://res.cloudinary.com/dkgo71mgz/image/upload/v1779104209/11adfa4b-68f4-4b9c-8565-edd7ced45adb.png"
+    ]
     }
 ];
